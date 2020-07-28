@@ -5,12 +5,12 @@ Useful with cyclic LinkedList or Arrays
 """
 
 #LinkedList Cycle (easy)
-  """  
-  Given the head of a Singly LinkedList, determine if LinkedList has a cycle or not.
+"""  
+Given the head of a Singly LinkedList, determine if LinkedList has a cycle or not.
   
-  Time Complexity : O(N)
-  Space Complexity : O(1)
-  """
+Time Complexity : O(N)
+Space Complexity : O(1)
+"""
 class Node:
   def __init__(self, value, next=None):
     self.value = value
