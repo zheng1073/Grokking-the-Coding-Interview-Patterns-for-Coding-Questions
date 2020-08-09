@@ -23,7 +23,7 @@ This pattern describes an efficient technique to deal with overlapping intervals
 
 Given two intervals (‘a’ and ‘b’), there will be six different ways the two intervals can relate to each other:
 ```
-![Overlapping Intervals](/Pattern: Merge Intervals/6_OverlappingIntervals.PNG)
+![Overlapping Intervals](https://github.com/zheng1073/Grokking-the-Coding-Interview-Patterns-for-Coding-Questions/blob/master/Pattern:%20Merge%20Intervals/6_OverlappingIntervals.PNG?raw=true)
 
 **5. Cyclic Sort**
 ```
