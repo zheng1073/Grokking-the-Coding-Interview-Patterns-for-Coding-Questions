@@ -1,6 +1,6 @@
 # Grokking the Coding Interview Patterns for Coding Questions
 
-##Patterns
+## Patterns
 
 **1. Sliding Window**
 ```
@@ -78,4 +78,12 @@
 ```
 
 **16. Topological Sort (Graph)**
+```
+
+```
+
 **Miscellaneous**
+```
+
+```
+
