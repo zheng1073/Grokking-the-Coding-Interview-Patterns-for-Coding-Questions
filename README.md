@@ -4,7 +4,7 @@
 
 **1. Sliding Window**
 ```
-
+**Given:** Array
 ```
 
 **2. Two Pointers**
