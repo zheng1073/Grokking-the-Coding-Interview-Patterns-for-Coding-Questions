@@ -16,4 +16,16 @@ class TreeNode:
 
 def find_sum_of_path_numbers(root):
   # TODO: Write your code here
-  return -1
+  return sum_of_paths(root, 0) 
+
+def sum_of_paths(currentNode, totalSum):
+  if currentNode is None:
+    return 0
+  
+  totalSum = 10 * totalSum + currentNode.val
+  
+  if currentNode.left is None and currentNode.right is None:
+    return totalSum
+  
+  return sum_of_paths(currentNode.left, totalSum) + sum_of_paths(currentNode.right, totalSum)
+
