@@ -3,3 +3,6 @@ To solve the problem, we are interested in knowing the smallest element in one p
 This pattern is an efficient approach to solve such problems.
 
 This pattern uses two Heaps to solve these problems; A Min Heap to find the smallest element and a Max Heap to find the biggest element.
+
+Min Heap --> root node is smallest element
+Max Heap -->
