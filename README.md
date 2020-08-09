@@ -27,27 +27,30 @@ Given two intervals (‘a’ and ‘b’), there will be six different ways the 
 
 **5. Cyclic Sort**
 ```
-A
+Given array containing numbers in a given range.
 ```
 
 **6. In-place Reversal of a LinkedList**
 ```
-
-```
+Reverse the links between a set of nodes of a LinkedList. Often, the constraint is that we need to do this in-place, i.e., using the existing node objects and without using extra memory.R```
 
 **7. Tree Breadth First Search**
 ```
+Any problem involving the traversal of a tree in a level-by-level order can be efficiently solved using this approach. 
 
+Use a Queue to keep track of all the nodes of a level before we jump onto the next level. 
 ```
 
 **8. Tree Depth First Search**
 ```
-
+Use recursion (or we can also use a stack for the iterative approach) to keep track of all the previous (parent) nodes while traversing.
 ```
 
 **9. Two Heaps**
 ```
+Given a set of elements such that we can divide them into two parts. 
 
+This pattern uses two Heaps to solve these problems; A Min Heap to find the smallest element and a Max Heap to find the biggest element.
 ```
 
 **10. Subsets**
