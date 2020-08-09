@@ -7,6 +7,12 @@ Design a class to calculate the median of a number stream. The class should have
   
 If the count of numbers inserted in the class is even, the median will be the average of the middle two numbers.
 """
+"""
+time complexity:
+  insertNum() --> O(logN) bc insertion in heap
+  findMedian() --> O(1)
+space complexity: O(N)
+"""
 from heapq import *
 
 class MedianOfAStream:
