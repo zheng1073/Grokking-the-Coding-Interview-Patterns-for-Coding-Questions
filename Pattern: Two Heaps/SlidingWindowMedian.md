@@ -88,3 +88,5 @@ class SlidingWindowMedian:
     elif len(self.maxHeap) < len(self.minHeap):
       heappush(self.maxHeap, -heappop(self.minHeap))
 ```
+**Time Complexity**: O(logK) for inserting/removing; O(K) for removing
+**Space Complexity**: O(K)
