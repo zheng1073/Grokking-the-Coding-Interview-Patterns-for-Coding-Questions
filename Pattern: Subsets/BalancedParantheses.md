@@ -27,6 +27,7 @@ class ParenthesesString:
 def generate_valid_parentheses(num):
   result = []
   queue = deque()
+  #start with an empty co,bination
   queue.append(ParenthesesString("", 0, 0))
   while queue:
     ps = queue.popleft()
