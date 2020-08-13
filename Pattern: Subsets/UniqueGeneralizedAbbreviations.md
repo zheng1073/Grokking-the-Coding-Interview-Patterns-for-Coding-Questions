@@ -57,7 +57,7 @@ def generate_generalized_abbreviation(word):
   return result
 ```
 
-recursive solution:
+**Recursive solution:**
 
 ```python3
 def generate_generalized_abbreviation(word):
