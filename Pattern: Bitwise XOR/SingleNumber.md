@@ -16,5 +16,7 @@ Output: 9
 
 ## Code:
 ```python3
-
+def find_single_number(arr):
+  # TODO: Write your code here
+  return -1
 ```
