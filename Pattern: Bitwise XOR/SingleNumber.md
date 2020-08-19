@@ -18,5 +18,8 @@ Output: 9
 ```python3
 def find_single_number(arr):
   # TODO: Write your code here
-  return -1
+  num = 0
+  for i in arr:
+    num ^= i
+  return num
 ```
