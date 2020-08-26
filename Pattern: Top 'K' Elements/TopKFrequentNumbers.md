@@ -27,6 +27,7 @@ def find_k_frequent_numbers(nums, k):
   # find the frequency of each number
   numFrequencyMap = {}
   for num in nums:
+    #if num exist in hashmap, use that. Otherwise use 0
     numFrequencyMap[num] = numFrequencyMap.get(num, 0) + 1
 
   minHeap = []
