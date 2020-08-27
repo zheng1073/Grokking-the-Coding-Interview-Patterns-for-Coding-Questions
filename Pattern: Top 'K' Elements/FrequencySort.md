@@ -20,5 +20,26 @@ Explanation: 'b' appeared three times, 'a' appeared twice, and 'c' appeared only
 
 ## Code:
 ```python3
+from heapq import *
 
+def sort_character_by_frequency(str):
+
+  # find the frequency of each character
+  charFrequencyMap = {}
+  for char in str:
+    charFrequencyMap[char] = charFrequencyMap.get(char, 0) + 1
+
+  maxHeap = []
+  # add all characters to the max heap
+  for char, frequency in charFrequencyMap.items():
+    heappush(maxHeap, (-frequency, char))
+
+  # build a string, appending the most occurring characters first
+  sortedString = []
+  while maxHeap:
+    frequency, char = heappop(maxHeap)
+    for _ in range(-frequency):
+      sortedString.append(char)
+
+  return ''.join(sortedString)
 ```
